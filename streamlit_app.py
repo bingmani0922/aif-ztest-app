@@ -8,6 +8,7 @@ st.write(
 
 markdown_text = """
 test
+- test
 """
 
 st.markdown(markdown_text)
