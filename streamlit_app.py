@@ -6,6 +6,8 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 
+
+
 # 환경 변수 설정
 os.environ["OPENAI_API_KEY"] = "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"
 
