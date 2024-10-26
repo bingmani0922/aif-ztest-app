@@ -1,4 +1,17 @@
+import os
+import pandas as pd
 import streamlit as st
+from langchain.chat_models import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+from langchain.chains import LLMChain
+from langchain.memory import ConversationBufferMemory
+from langchain_community.chat_models import ChatOpenAI
+import openai
+
+# 환경 변수 설정
+# api_key = st.secret["OPENAI_API_KEY"]
+# os.environ["OPENAI_API_KEY"] = "sk-Ff5UtnaNduMinWUeVMQIniOiThvc9jnnzmUp1Wsx_JT3BlbkFJqsndc9ZGaNBv7pT9CepAZfdSUhSCTqAhMK1B2nL8cA"
+openai.api_key = "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"
 
 # 제목과 설명 추가
 st.title('Streamlit 간단한 예시')
