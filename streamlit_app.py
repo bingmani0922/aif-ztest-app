@@ -7,7 +7,7 @@ from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 
 # 환경 변수 설정
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 # 메모리 객체 생성
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
